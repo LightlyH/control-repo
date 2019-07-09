@@ -11,3 +11,5 @@ mod 'elastic-kibana', '6.3.1'
 mod 'richardc-datacat', '0.6.2'
 mod 'elastic-elasticsearch', '6.3.3'
 mod 'elastic-logstash', '6.1.5'
+mod 'custom-elk',
+  :git => 'https://github.com/LightlyH/custom-elk.git'
