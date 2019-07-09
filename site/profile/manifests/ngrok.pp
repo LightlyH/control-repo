@@ -1,10 +1,7 @@
 class profile::ngrok {  
-  class { 'ngrok':
-    authtoken       => '43vtiYGuNzogCf3Kh5wtF_7yaxJTARNgFn9Mvp4vA7f',
-  }
-
-  ngrok::tunnel { 'webhook':
-    proto => 'tcp',
+  include ngrok
+  ngrok::tunnel { 'web traffic':
+    proto => 'http',
     addr  => '8088',
   }
 }
