@@ -3,4 +3,5 @@ class role::master {
   include profile::ngrok
   include profile::puppetdb
   include profile::puppetboard
+  include profile::filebeat_puppetserver
 }
