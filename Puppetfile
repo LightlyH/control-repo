@@ -13,3 +13,7 @@ mod 'elastic-elasticsearch', '6.3.3'
 mod 'elastic-logstash', '6.1.5'
 mod 'custom-elk',
   :git => 'https://github.com/LightlyH/custom-elk.git'
+mod 'puppetlabs-puppetdb', '7.3.0'
+mod 'puppetlabs-inifile', '3.0.0'
+mod 'puppetlabs-postgresql', '6.1.0'
+mod 'puppetlabs-firewall', '2.0.0'
